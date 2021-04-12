@@ -27,7 +27,7 @@ End Google Tag Manager (noscript) -->
 	/*Set Token on page load*/
 	j2.campaigner.utilities.setToken(j2.campaigner.pageData.token);
 	/*setting consent on page load*/
-	j2.campaigner.utilities.setConsent('must pass consent');
+	
 </script>
 
 </head>
@@ -36,7 +36,7 @@ End Google Tag Manager (noscript) -->
 
 <h1>The button form attribute</h1>
 
-<form action="#" onsubmit="ProcessPConversion()" method="get" id="nameform">
+<form action="#" onsubmit="return j2.campaigner.utilities.setConsent() &&(ProcessPConversion())" method="get" id="nameform">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Last name:</label>
