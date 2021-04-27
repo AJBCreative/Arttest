@@ -40,7 +40,7 @@
                 rules:
                 {
                     confirmEmail: {
-                        equalTo: "#1306990"
+                        equalTo: "#19190"
                     }
                 },
                 messages:
@@ -48,7 +48,7 @@
                     confirmEmail: "Email addresses do not match."
                 }
             })
-
+​
             //Localize validation message
             $.validator.messages.email = "Please enter a valid email address";
             $.validator.messages.required = "This field is required";
@@ -58,20 +58,20 @@
             $(".datepicker").datepicker({ showOn: 'button', buttonImage: 'https://secure.campaigner.com/CSB/images/Toolbar/newAppointment.gif', buttonImageOnly: true, dateFormat: 'yy-mm-dd', constrainInput: true, changeMonth: true, changeYear: true, yearRange: "1900:+10", onSelect: function (dateText, inst) { inst.input.trigger("focus"); } });
             var dateFormat = "yyyy-mm-dd";
             $(".datepicker").attr("title", dateFormat).attr("format", dateFormat);
-
+​
             // Force the calender to stay hidden till it's being invoked through the calendar icon
             $(".ui-helper-clearfix").css("display", "none");
         });
-
-
-
-
+​
+​
+​
+​
     function setCheckBox(control)
     {
         var txtBox = $(control);
         // Get the accompanying checkbox for the Other textfield
         var chk = $(txtBox.closest('input').prev().find('[type=checkbox]'))
-
+​
         // Check the Other checkbox when adding text
         if (!chk.attr('checked'))
         {
@@ -82,16 +82,16 @@
         {
             chk.prop('checked', false);
         }
-
+​
     }
-
-
+​
+​
     </script>
     <link href="https://media.campaigner.com/csb/app_themes/lightning/combobox.campformcombo.css" type="text/css" rel="stylesheet"><link href="https://media.campaigner.com/csb/app_themes/lightning/common/fonticons.css" type="text/css" rel="stylesheet"></head>
 <body>
     <form name="previewForm" method="post" action="https://secure.campaigner.com/CSB/Public/ProcessHostedForm.aspx" id="previewForm" enctype="multipart/form-data" target="_blank" novalidate="novalidate">
-
-
+​
+​
 <script type="text/javascript">
 //<![cdata[
 var theForm = document.forms['previewForm'];
@@ -107,35 +107,35 @@ function __doPostBack(eventTarget, eventArgument) {
 }
 //]]>
 </script>
-
-
-
-
+​
+​
+​
+​
 <style type="text/css">
 .radgrid {  color:black; font-family:Arial; font-size:12px; font-weight:normal; text-decoration:none; font-style:Bold; margin-left:25px;; }
 .SignupFormPreview { padding: 10px 0 0 10px; font-size:12px; color:black; font-family:Arial; font-weight:normal; text-align:Left; font-style:Bold; text-decoration:none; }
 .btnStyle{background-color:#77738E; color:white; }
 #PopupMasterContentArea{ width:380px; }
 </style>
-
-
+​
+​
 <div>
-
+​
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5523BD75">
 </div>
         <div id="previewWrapper" style="text-align:center">
             
             
             
-
+​
             <div id="LanguageDropdown" class="LanguageDropdown">
                     
             </div>
-
+​
             <div id="formContainer" class="formContainer" style="margin:0 auto;border:3px solid #32677a;background-color:#f2eee5;">
-
-                <div id="SignupFormPreview" class="SignupFormPreview"><table id="FormFieldsTable" cellspacing="0" cellpadding="0"><tr id="Email1306990" align="left"><td valign="top"><span id="EmailLabel" class="SignupFormPreview" style="display:inline-block;width:100px;text-align:;display:inline-block;overflow:hidden;text-overflow:ellipsis;">Email:&nbsp;</span></td><td style="vertical-align:top;position:relative; top:5px" width="15px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAYAAABi8KSDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFSSURBVChTTZBNSwJRFIbfsVEHK8VESkyjFom0kAoMRF1UEFItXLRvE9Tf6I+0NWjjyr4hQggpklAiQTNS0UZTsPE7p3vvDNV74d57nvPBOYeTifBPtU4Dr80SLIIJs+N2lSrSqO+v8l8lHGWiuBfTKvkTC376zOC6mGBAy/EoSBW0vrvMTtZecFt5ZH+eXpHcOcqSyJJCTj9zGHWjOMlf4uL9DjInw2tdAOs5IaZY5YfqMyZIr+VWFWa9Ef3hABa9CRsOH0LTfiWYQmnQxhVJiGRP0Rv2AQ7YcgYRnlnFmNYAYUSnBMfLScQKcbKFIqR+GzI5Ai+wgWwGKzYdAazZvcqA0bcbpOtZ+CY9OFw+oAh7rjCzc80CjrNnJF0dcHd+G2KnzpyJjxRF6JBt7Lt3EJhaJL4G7Uqp7DbPIWhbglbDozvsUcSSqe2xuLBuXyEE+AGMTIxCHolN+QAAAABJRU5ErkJggg==" style="border-width:0px;"></td><td><input name="1306990FF" type="text" maxlength="4000" id="1306990FF" class="required email" contactattributeid="1306990" style="width:200px;"></td></tr><tr><td></td><td></td></tr></table></div>
-
+​
+                <div id="SignupFormPreview" class="SignupFormPreview"><table id="FormFieldsTable" cellspacing="0" cellpadding="0"><tr id="Email19190" align="left"><td valign="top"><span id="EmailLabel" class="SignupFormPreview" style="display:inline-block;width:100px;text-align:;display:inline-block;overflow:hidden;text-overflow:ellipsis;">Email:&nbsp;</span></td><td style="vertical-align:top;position:relative; top:5px" width="15px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAYAAABi8KSDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFSSURBVChTTZBNSwJRFIbfsVEHK8VESkyjFom0kAoMRF1UEFItXLRvE9Tf6I+0NWjjyr4hQggpklAiQTNS0UZTsPE7p3vvDNV74d57nvPBOYeTifBPtU4Dr80SLIIJs+N2lSrSqO+v8l8lHGWiuBfTKvkTC376zOC6mGBAy/EoSBW0vrvMTtZecFt5ZH+eXpHcOcqSyJJCTj9zGHWjOMlf4uL9DjInw2tdAOs5IaZY5YfqMyZIr+VWFWa9Ef3hABa9CRsOH0LTfiWYQmnQxhVJiGRP0Rv2AQ7YcgYRnlnFmNYAYUSnBMfLScQKcbKFIqR+GzI5Ai+wgWwGKzYdAazZvcqA0bcbpOtZ+CY9OFw+oAh7rjCzc80CjrNnJF0dcHd+G2KnzpyJjxRF6JBt7Lt3EJhaJL4G7Uqp7DbPIWhbglbDozvsUcSSqe2xuLBuXyEE+AGMTIxCHolN+QAAAABJRU5ErkJggg==" style="border-width:0px;"></td><td><input name="19190FF" type="text" maxlength="4000" id="19190FF" class="required email" contactattributeid="19190" style="width:200px;"></td></tr><tr><td></td><td></td></tr></table></div>
+​
                 
                 
                 <div id="FooterPreview" class="SignupFormPreview"></div>
@@ -148,13 +148,13 @@ function __doPostBack(eventTarget, eventArgument) {
                 </div>
             </div>
         </div>
-        <input type="hidden" name="FormInfo" id="FormInfo" value="719e48dd-48a3-4735-8102-e57cc1c71d86">
-        <input type="hidden" name="AccId" id="AccId" value="2tt5">
+        <input type="hidden" name="FormInfo" id="FormInfo" value="0b17fab5-61f0-4ad5-84c1-35228dbc602c">
+        <input type="hidden" name="AccId" id="AccId" value="g7of">
     
-
-
+​
+​
 </form>
-
-
+​
+​
 </body>
 </html>
